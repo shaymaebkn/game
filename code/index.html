@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Architects+Daughter" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Rubik" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
+    <title> game gueess a number </title>
+    
+</head>
+<body>
+    <div class="body">
+        <img src="background.jpg" width="100%" height="100%" alt="background image of game ">
+    </div>
+    <div class="box">
+    <img src="" alt="">
+    <h3 class="neon-button" > I have a random number between 1 and 100</h3>
+    <h2>Dare to  guess ?</h2>
+    <br><br>
+    <div class="container">
+
+         <input type="number" max="100" min="1" placeholder="Num"  id="guess">
+         <br><br>
+
+         <button onclick="play()" id="my-btn">GUESS</button>
+
+        <br><br>
+         <p id="message1">number of Guesses : 10</p>
+         <p id="message2">Guessed numbers are : none</p>
+         <p id="message3"></p>
+         <p class="message4"></p>
+        <br><br>
+        
+    </div>
+    </div>
+    
+    <script src="app.js" charset="utf-8"></script>
+
+
+
+
+</body>
+</html>
