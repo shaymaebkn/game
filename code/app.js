@@ -2,9 +2,7 @@
 var msg1 = document.getElementById("message1")
 var msg2 = document.getElementById("message2")
 var msg3 = document.getElementById("message3")
-var msg4 = document.getElementsByClassName("message4")
-var rejouerBtn = document.getElementsByClassName("button")
-var resetGame = document.getElementsByClassName("setGameOver")
+// var msg4 = document.getElementsByClassName("message4")
 
 
 var answer = Math.floor(Math.random()*100) + 1;
@@ -40,7 +38,7 @@ function play(){
         if(user_guess == answer  && no_of_guesses <= 7){
              msg1.textContent = "yuupiiieeeee you win ! goood joob";
              msg2.textContent = "the number was : " + answer;
-             msg3.textContent = "you guessed it in " + guessed_it + "guesses";
+             msg3.textContent = "you guessed it in " + guessed_it +  " guesses";
 
 
               
@@ -58,9 +56,9 @@ function play(){
                 }
                    }
          
-            if (no_of_guesses == 0)
+            if (no_of_guesses <= 0)
                 {
-                    alert(" you lost!")
+                    msg1.textContent = (" oowe ! you lost !")
                 
                 } 
 
