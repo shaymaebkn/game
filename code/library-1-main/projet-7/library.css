@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    height: 2em;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+   
+}
+.body{
+    position: absolute;
+    width: 100%;
+    max-height: 100%;
+    z-index: -1000;
+    top: 0;
+    bottom: 0;
+}
+.liste{
+    list-style: none;
+    font-size: 100%;
+}
+
+.box{
+    margin:0 19%;
+    background-color: #eedabf;
+    opacity: 0.9;
+    height: 1300px;
+    font-size: 160%;
+}
+
+
+.add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ADD-book{
+    text-align: center;
+    margin: 3%;
+    font-weight: bold;
+    color: #642400;
+    font-size: 200%;
+}
+
+input{
+    height: 25px;
+    border-radius: 10px;
+}
+
+#cars{
+    height: 28px;
+    border-radius: 10px;
+}
+#button-add{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Rubik;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.books-add{
+    font-weight: bold;
+    color: #642400;
+    text-align: center;
+    font-size: 150%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #eedabf;
+    text-align: left;
+    padding: 2%;
+  }
+  td{
+      border-top: 2px solid black ;
+      border-bottom: 2px solid black;
+  }
